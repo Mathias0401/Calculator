@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora V2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="h-screen w-screen bg-[#090924] grid place-content-center">
+    <div class="w-128 h-138 bg-[#2A456D] rounded-3xl grid grid-cols-4_1 grid-rows-[10rem_1fr_1fr_1fr_1fr_1fr] gap-3 p-10 [&>div.btn]:grid [&>div.btn]:place-content-center [&>div.btn]:rounded-xl [&>div.btn]:text-3xl [&>div]:font-mono [&>div.btn]:text-white [&>div.btn]:cursor-pointer [&>div.btn]:select-none">
+
+        <div id="screen" class="w-full h-full bg-[#736467] col-span-4 rounded-2xl flex justify-end items-center p-10 text-5xl overflow-hidden whitespace-nowrap text-white">0</div>
+
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">C</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">CE</i></div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">/</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">*</div>
+
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">7</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">8</i></div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">9</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">-</div>
+
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">4</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">5</i></div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">6</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">+</div>
+
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">1</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">2</i></div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">3</div>
+        <div class="btn bg-[#3F5DC2] hover:bg-[#5470C9] row-span-2">=</div>
+
+        <div class="btn bg-[#3F5DC2] hover:bg-[#5470C9] col-span-2">0</div>
+        <div class="btn bg-[#003D47] hover:bg-[#006B7C]">.</i></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
